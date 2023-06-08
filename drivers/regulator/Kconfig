@@ -27,6 +27,10 @@ module = REGULATOR
 module-str = regulator
 source "subsys/logging/Kconfig.template.log_config"
 
+<<<<<<< HEAD
+=======
+source "drivers/regulator/Kconfig.act81461"
+>>>>>>> 36f64c9... Add back act81461 fuel gauge support
 source "drivers/regulator/Kconfig.adp5360"
 source "drivers/regulator/Kconfig.fake"
 source "drivers/regulator/Kconfig.fixed"

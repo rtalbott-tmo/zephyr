@@ -4,6 +4,10 @@
 zephyr_library()
 
 zephyr_library_sources(regulator_common.c)
+<<<<<<< HEAD
+=======
+zephyr_library_sources_ifdef(CONFIG_REGULATOR_ACT81461 regulator_act81461.c)
+>>>>>>> 36f64c9... Add back act81461 fuel gauge support
 zephyr_library_sources_ifdef(CONFIG_REGULATOR_ADP5360 regulator_adp5360.c)
 zephyr_library_sources_ifdef(CONFIG_REGULATOR_FAKE regulator_fake.c)
 zephyr_library_sources_ifdef(CONFIG_REGULATOR_FIXED regulator_fixed.c)
